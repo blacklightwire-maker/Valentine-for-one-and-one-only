@@ -301,7 +301,7 @@ h2 {
 }
 
 .music-btn {
-    background: var(--primary-color);
+    background: var(--primary-color ff6b6b);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -314,5 +314,5 @@ h2 {
 
 .music-btn:hover {
     transform: scale(1.05);
-    background: var(--secondary-color);
+    background: var(--secondary-color, ff8787);
 } 
