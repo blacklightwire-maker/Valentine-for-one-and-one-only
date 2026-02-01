@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓']  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -22,19 +22,19 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?"                                    // First interaction
-            yesBtn: "Yes"                                    // Text for "Yes" button
-            noBtn: "No"                                               // Text for "No" button
-            secretAnswer: "I don't like you, Amoot Feeek ❤️"           // Secret hover message
+            text: "Do you like me?",                                    // First interaction
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
+            secretAnswer: "I don't like you, Amoot Feeeek ❤️"           // Secret hover message
         },
         second: {
-            text: "Shkther t7beeniii?"                          // For the love meter
-            startText: "This much!"                                   // Text before the percentage
+            text: "Shkther T7beeeniiii?",                          // For the love meter
+            startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!"                                             // Text for "Yes" button
+            yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "DAMMMMMM T7BEENI HALKITHERRRRR?? 🥰🚀💝"  // Shows when they go past 5000%
-        high: "GALBIIIII💝"              // Shows when they go past 1000%
-        normal: "ANA AKTHARRR🥰"                           // Shows when they go past 100%
+        extreme: "DAMMMMMMMM T7BEENI HAL KITHERRR?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "GALBIIII💝",              // Shows when they go past 1000%
+        normal: "ANA AKTHARRRR 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "A5555 3umri intay amoot feech anaaaa  🎉💝💖💝💓",
-        message: "Now come get your gift, booosaaattt o big huuugggg",
+        title: "A55555 3umri intay amoot feech anaaaa 🎉💝💖💝💓",
+        message: "Now come get your gift,bosaaaaattt o big huuuggggss",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -71,14 +71,14 @@ const CONFIG = {
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
-    }
-},
+    },
 
-
+    // Background Music (Optional)
+    // Add your own music URL after getting proper licenses
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dcecfqhyh/video/upload/v1769969139/JVKE_her.mp3, // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dcecfqhyh/video/upload/v1769969139/JVKE_her.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
