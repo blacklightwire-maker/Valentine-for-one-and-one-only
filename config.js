@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓']  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -22,19 +22,19 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            text: "Do you like me?"                                    // First interaction
+            yesBtn: "Yes"                                    // Text for "Yes" button
+            noBtn: "No"                                               // Text for "No" button
             secretAnswer: "I don't like you, Amoot Feeek ❤️"           // Secret hover message
         },
         second: {
-            text: "Shkther t7beeniii?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "Shkther t7beeniii?"                          // For the love meter
+            startText: "This much!"                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
+            yesBtn: "Yes!"                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "DAMMMMMM T7BEENI HALKITHERRRRR?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "GALBIIIII💝",              // Shows when they go past 1000%
+        extreme: "DAMMMMMM T7BEENI HALKITHERRRRR?? 🥰🚀💝"  // Shows when they go past 5000%
+        high: "GALBIIIII💝"              // Shows when they go past 1000%
         normal: "ANA AKTHARRR🥰"                           // Shows when they go past 100%
     },
 
